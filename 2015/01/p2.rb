@@ -15,6 +15,7 @@ set.split("\n").each do |instrucciones|
       floor -= 1
     end
     next unless floor == -1
+
     puts "posición: #{posición} #{instrucciones}"
     break
   end
